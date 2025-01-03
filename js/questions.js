@@ -120,43 +120,44 @@ For a circuit to work, the load (the component that uses energy) and energy sour
     definition: "An electrical conductor is a material that electricity can flow through. ",
     options: ["yes", "no"],
     a: 0,  
+  }, 
+  {
+    id: 16,
+    q: "What is an electrical insulator?	",
+    definition: "An electrical insulator is a material that electricity cannot flow through.",
+    options: ["yes", "no"],
+    a: 0,  
+  }, 
+  {
+    id: 17,
+    q: "What two things does a battery do in a circuit?",
+    definition: "A battery: (1) forces electrons around a circuit; and (2) gives electrons energy, which they can transfer to a load in the circuit.",
+    options: ["yes", "no"],
+    a: 0,  
   },
-  // {
-  //   id: 16,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,  
-  // },
-  // {
-  //   id: 17,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,  
-  // },
-  // {
-  //   id: 18,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,  
-  // },
-  // {
-  //   id: 19,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,  
-  // },
-  // {
-  //   id: 20,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,  
-  // },
-  // // template 
+  {
+    id: 18,
+    q: "In a circuit, what is a load?",
+    definition: "A load is a component in a circuit that uses energy, such as an LED, buzzer or motor.",
+    options: ["yes", "no"],
+    a: 0,  
+  },
+  {
+    id: 19,
+    q: "What do resistors do?",
+    definition: "Resistors are electronic components that restrict the flow of current around a circuit.",
+    options: ["yes", "no"],
+    a: 0,  
+  },
+  {
+    id: 20,
+    q: "How can you tell the value (resistance) of a resistor?",
+    definition: "(1) The coloured bands on a resister indicate its resistance. (2) They can be used to calculate the value of the resistor.",
+    options: ["yes", "no"],
+    a: 0,  
+  },
+  //  What are the units used to measure resistance? 	Ohms (Ω)
+
   // {
   //   id: 21,
   //   q: "",
@@ -165,36 +166,26 @@ For a circuit to work, the load (the component that uses energy) and energy sour
   //   a: 0,  
   // },
 
- ]
+  // How do you fix components to a PCB?		Components are fixed to a PCB using solder.
 
-//******************Line 4******************* */
-// 1. What is an electrical insulator?	
-// 	An electrical insulator is a material that electricity cannot flow through.
-
-// 2. What two things does a battery do in a circuit?
-//  A battery: (1) forces electrons around a circuit; and (2) gives electrons energy, which they can transfer to a load in the circuit. 
-
-// 3. In a circuit, what is a load?	
-// The component in a circuit that uses energy, such as an LED, buzzer or motor.
-
-// 4. What do resistors do?	
-// Resistors are electronic components that restrict the flow of current around a circuit.
-
-// 5. How can you tell the value (resistance) of a resistor?
-// The coloured bands on a resister indicate its resistance.
-// They can be used to calculate the value of the resistor. 	
-
-//******************Line 5 ******************* */
-
-//  What are the units used to measure resistance? 	Ohms (Ω)
-
-// How do you fix components to a PCB?		Components are fixed to a PCB using solder.
+  // {
+  //   id: 22,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
 
 // What are the safety precautions you should take when soldering (list 4)?	
-// -Always wear goggles. 
-//  -Use a stand to hold the PCB.
-//  -Only one person uses the soldering iron.
-//  -Put the soldering iron in the stand whenever it is not being used. 
+// (1) Always wear goggles. (2) Use a stand to hold the PCB. (3) Only one person uses the soldering iron. (4) Put the soldering iron in the stand whenever it is not being used. 
+
+  // {
+  //   id: 23,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
 
 // How are polymers produced?	
 // -Crude oil is made up of a mixture of lots of different hydrocarbons. 
@@ -202,10 +193,25 @@ For a circuit to work, the load (the component that uses energy) and energy sour
 //  -Naphtha is used to produce monomers. 
 //  -Monomers are joined together to produce polymers.
 
+
+  // {
+  //   id: 24,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
 //  What is the difference between a renewable and non-renewable material? //  -Non-renewable material will eventually run out. 
 //  -Renewable materials can be replaced. 	  	
+  // {
+  //   id: 25,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
 
-//******************Line 6 ******************* */
+  
 // 1. What are examples of renewable and non-renewable material?	
 //  -Renewable materials include timber and cotton.
 // Non-renewable material include metals and plastics.
@@ -237,6 +243,52 @@ For a circuit to work, the load (the component that uses energy) and energy sour
 //  i.  Can be recycled  
 //  ii. Has a lower melting than thermosetting plastics. 
 //  iii. Most plastic items are made using thermoplastics. 
+
+    // {
+  //   id: 26,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+  // {
+  //   id: 27,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+  // {
+  //   id: 28,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+  // {
+  //   id: 29,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+  // {
+  //   id: 30,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+  // // template 
+  // {
+  //   id: 21,
+  //   q: "",
+  //   definition: "",
+  //   options: ["yes", "no"],
+  //   a: 0,  
+  // },
+
+ ]
 
   
 
