@@ -5,7 +5,7 @@ const questions = [
     definition: `(1) Resistor
 (2) Light Emitting Diode (LED)
 (3) Switch
-(4) Battery holder
+(4) Battery
 (5) Printed Circuit Board (PCB)`,
     options: ["yes", "no"],
     a: 0,
@@ -21,8 +21,7 @@ const questions = [
   {
     id: 2,
     q: "Give 2 reasons why we use circuit diagram symbols",
-    definition: `<pre>(1) They are quicker to draw than the actual component. 
-    (2) Universally understood – international symbols</pre>`,
+    definition: `(1) They are quicker to draw than the actual component. (2) They are universally understood international symbols`,
     options: ["yes", "no"],
     a: 0,
   },
@@ -117,9 +116,7 @@ const questions = [
   {
     id: 14,
     q: "What is an electric circuit?",
-    definition: `<pre>An electronic circuit is made up of electronic components connected together. 
-    
-For a circuit to work, the load (the component that uses energy) and energy source (battery) must form a 'closed' loop.</pre>`,
+    definition: `An electronic circuit is made up of electronic components connected together. For a circuit to work, the load (the component that uses energy) and energy source (battery) must form a 'closed' loop.`,
     options: ["yes", "no"],
     a: 0,
   },
@@ -249,7 +246,67 @@ For a circuit to work, the load (the component that uses energy) and energy sour
     options: ["yes", "no"],
     a: 0,
   },
+  {
+  id: 31,
+  q: "What is the circuit diagram symbol for a resistor?",
+  definition:
+    "<img src='./images/resistor.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+  options: ["yes", "no"],
+  a: 0,
+},
+{
+  id: 32,
+  q: "What is the circuit diagram symbol for a switch?",
+  definition:
+    "<img src='./images/switch.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+  options: ["yes", "no"],
+  a: 0,
+},
+{
+  id: 33,
+  q: "What is the circuit diagram symbol for a battery?",
+  definition: "<img src='./images/battery.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+  options: ["yes", "no"],
+  a: 0,
+},
 
+  {
+    id: 34,
+    q: "What is the role of a designer?",
+    definition: "The role of a designer is to solve a problem or create a new idea to deal with a situation. It is also to carry out research and develop possible solutions.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 35,
+    q: "What happens to energy in a closed circuit?",
+    definition: "There is a continuous flow of electrical charge.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+];
+// What is an electric circuit? A closed loop of electrical components such as lamps and switches, through which electricity can flow. 
+// Why are printed circuit boards (PCBs) used?  To hold electrical components in place and provide electrical connections between the components.
+// What do resistors do? Resistors reduce or control the flow of electrical current in a circuit, creating specific voltage levels. They are used in devices such as dimmer switches.
+// What is a flow diagram? A diagram that shows the step-by-step flow of instructions, a workflow or a process.
+// What is the flow diagram symbol for start/end? oval
+// What is the flow diagram symbol for process? rectangle
+// What is the flow diagram symbol for decision? diamond
+// True or false:  heat is usually used to produce plastic products. True
+// What are the two groups of plastics? Thermoplastics and thermosetting plastics.
+// Which plastics are easier to recycle - thermo setting plastics or thermoplastics? Thermoplastics
+// What is an adhesive? An adhesive is a sticky substance, like glue, used to join materials together by forming a strong surface bond.
+// What is the difference between adhesive and solvent bonding? Adhesive bonding uses glue to join materials, while solvent bonding dissolves surfaces to create a strong chemical bond.
+// Which group of plastics have crosslinks - thermoplastics or thermosetting plastics? Thermosetting plastics
+// Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics? thermoplastics 
+// Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics? thermoplastics 
+// Which group of plastics can be recycled - thermoplastics or thermosetting plastics? thermoplastics 
+// Which has a lower melting point - thermoplastics or thermosetting plastics? thermoplastics 
+// Which has a higher melting point - thermoplastics or thermosetting plastics? Thermosetting plastics 
+// What are most plastic items made of - thermoplastics or thermosetting plastics? thermoplastics 
+// Which type of plastics can only be formed once - thermoplastics or thermosetting plastics? Thermo setting plastics.
+// Which can withstand higher temperatures - thermoplastics or thermosetting plastics? Thermosetting plastics
+// Which are used in electrical and cooking items - thermoplastics or thermosetting plastics? Thermosetting plastics 
   // // template
   // {
   //   id: 21,
@@ -258,27 +315,3 @@ For a circuit to work, the load (the component that uses energy) and energy sour
   //   options: ["yes", "no"],
   //   a: 0,
   // },
-];
-//  Lesson 1	-What is the role of a designer?
-// -What electronic components are in the torch and what are their circuit diagram symbols?
-
-// -What two things does a battery do in a circuit?
-// -In a circuit, what is a load?
-// -What happens to energy in a closed circuit?
-// Lesson 4	-What do resistors do?
-// -How can you tell the value of a resistor?
-// -Why are PCBs used?
-// -How do you fix components to a PCB?
-// -What are the safety precautions you should take when soldering?
-// Lesson 5	-What is a flow diagram?
-// -What are the flow diagram symbols for start/end, process and decision?
-// Lesson 6	-How are polymers produced?
-// -What is the difference between a renewable and non-renewable material?
-// -What are examples of renewable and non-renewable material?
-// -Know that heat is usually used to produce plastic products.
-// -What are the two groups of plastics and how are they different?
-// -Which plastics are easier to recycle?
-// Lesson 7	-What is sustainability?
-// -What are the 6 Rs?
-// Lesson 8	What is an adhesive?
-// What is the difference between adhesive and solvent bonding?
