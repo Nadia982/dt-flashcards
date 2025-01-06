@@ -115,7 +115,7 @@ const questions = [
   },
   {
     id: 14,
-    q: "What is an electric circuit?",
+    q: "What is an electrical circuit?",
     definition: `An electronic circuit is made up of electronic components connected together. For a circuit to work, the load (the component that uses energy) and energy source (battery) must form a 'closed' loop.`,
     options: ["yes", "no"],
     a: 0,
@@ -247,33 +247,35 @@ const questions = [
     a: 0,
   },
   {
-  id: 31,
-  q: "What is the circuit diagram symbol for a resistor?",
-  definition:
-    "<img src='./images/resistor.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
-  options: ["yes", "no"],
-  a: 0,
-},
-{
-  id: 32,
-  q: "What is the circuit diagram symbol for a switch?",
-  definition:
-    "<img src='./images/switch.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
-  options: ["yes", "no"],
-  a: 0,
-},
-{
-  id: 33,
-  q: "What is the circuit diagram symbol for a battery?",
-  definition: "<img src='./images/battery.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
-  options: ["yes", "no"],
-  a: 0,
-},
+    id: 31,
+    q: "What is the circuit diagram symbol for a resistor?",
+    definition:
+      "<img src='./images/resistor.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 32,
+    q: "What is the circuit diagram symbol for a switch?",
+    definition:
+      "<img src='./images/switch.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 33,
+    q: "What is the circuit diagram symbol for a battery?",
+    definition:
+      "<img src='./images/battery.png' width='200' style='margin-left: 25%'><p style='display:none>Just some text so this takes a while to read</p>",
+    options: ["yes", "no"],
+    a: 0,
+  },
 
   {
     id: 34,
     q: "What is the role of a designer?",
-    definition: "The role of a designer is to solve a problem or create a new idea to deal with a situation. It is also to carry out research and develop possible solutions.",
+    definition:
+      "The role of a designer is to solve a problem or create a new idea to deal with a situation. It is also to carry out research and develop possible solutions.",
     options: ["yes", "no"],
     a: 0,
   },
@@ -284,34 +286,113 @@ const questions = [
     options: ["yes", "no"],
     a: 0,
   },
+  {
+    id: 36,
+    q: "Why are printed circuit boards (PCBs) used?",
+    definition:
+      "To hold electrical components in place and provide electrical connections between the components.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 37,
+    q: "What do resistors do?",
+    definition:
+      "Resistors reduce or control the flow of electrical current in a circuit, creating specific voltage levels. They are used in devices such as dimmer switches.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 38,
+    q: "What is a flow diagram?",
+    definition:
+      "A diagram that shows the step-by-step flow of instructions, a workflow or a process.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 39,
+    q: "What is the flow diagram symbol for the start/end?",
+    definition: "An oval",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 40,
+    q: "What is the flow diagram symbol for a process?",
+    definition: "A rectangle",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 41,
+    q: "What is the flow diagram symbol for a decision?",
+    definition: "A diamond",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 42,
+    q: "True or false:  heat is usually used to produce plastic products.",
+    definition: "true",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 43,
+    q: "What are the two groups of plastics?",
+    definition: "Thermoplastics and thermosetting plastics.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 44,
+    q: "Which plastics are easier to recycle - thermo setting plastics or thermoplastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 45,
+    q: "What is an adhesive?",
+    definition: "An adhesive is a sticky substance, like glue, used to join materials together by forming a strong surface bond.",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 46,
+    q: "What is the difference between adhesive and solvent bonding?",
+    definition: "Adhesive bonding uses glue to join materials, while solvent bonding dissolves surfaces to create a strong chemical bond.",
+    options: ["yes", "no"],
+    a: 0,
+  },
 ];
-// What is an electric circuit? A closed loop of electrical components such as lamps and switches, through which electricity can flow. 
-// Why are printed circuit boards (PCBs) used?  To hold electrical components in place and provide electrical connections between the components.
-// What do resistors do? Resistors reduce or control the flow of electrical current in a circuit, creating specific voltage levels. They are used in devices such as dimmer switches.
-// What is a flow diagram? A diagram that shows the step-by-step flow of instructions, a workflow or a process.
-// What is the flow diagram symbol for start/end? oval
-// What is the flow diagram symbol for process? rectangle
-// What is the flow diagram symbol for decision? diamond
-// True or false:  heat is usually used to produce plastic products. True
-// What are the two groups of plastics? Thermoplastics and thermosetting plastics.
-// Which plastics are easier to recycle - thermo setting plastics or thermoplastics? Thermoplastics
-// What is an adhesive? An adhesive is a sticky substance, like glue, used to join materials together by forming a strong surface bond.
-// What is the difference between adhesive and solvent bonding? Adhesive bonding uses glue to join materials, while solvent bonding dissolves surfaces to create a strong chemical bond.
+
+// Template
+// {
+//   id: 42,
+//   q: "?",
+//   definition: "",
+//   options: ["yes", "no"],
+//   a: 0,
+// },
+
+//  
 // Which group of plastics have crosslinks - thermoplastics or thermosetting plastics? Thermosetting plastics
-// Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics? thermoplastics 
-// Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics? thermoplastics 
-// Which group of plastics can be recycled - thermoplastics or thermosetting plastics? thermoplastics 
-// Which has a lower melting point - thermoplastics or thermosetting plastics? thermoplastics 
-// Which has a higher melting point - thermoplastics or thermosetting plastics? Thermosetting plastics 
-// What are most plastic items made of - thermoplastics or thermosetting plastics? thermoplastics 
+// Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics? thermoplastics
+// Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics? thermoplastics
+// Which group of plastics can be recycled - thermoplastics or thermosetting plastics? thermoplastics
+// Which has a lower melting point - thermoplastics or thermosetting plastics? thermoplastics
+// Which has a higher melting point - thermoplastics or thermosetting plastics? Thermosetting plastics
+// What are most plastic items made of - thermoplastics or thermosetting plastics? thermoplastics
 // Which type of plastics can only be formed once - thermoplastics or thermosetting plastics? Thermo setting plastics.
 // Which can withstand higher temperatures - thermoplastics or thermosetting plastics? Thermosetting plastics
-// Which are used in electrical and cooking items - thermoplastics or thermosetting plastics? Thermosetting plastics 
-  // // template
-  // {
-  //   id: 21,
-  //   q: "",
-  //   definition: "",
-  //   options: ["yes", "no"],
-  //   a: 0,
-  // },
+// Which are used in electrical and cooking items - thermoplastics or thermosetting plastics? Thermosetting plastics
+// // template
+// {
+//   id: 21,
+//   q: "",
+//   definition: "",
+//   options: ["yes", "no"],
+//   a: 0,
+// },
