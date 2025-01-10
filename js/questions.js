@@ -366,6 +366,13 @@ const questions = [
     options: ["yes", "no"],
     a: 0,
   },
+{
+  id: 47,
+  q: "Which group of plastics have crosslinks - thermoplastics or thermosetting plastics?",
+  definition: "Thermosetting plastics",
+  options: ["yes", "no"],
+  a: 0,
+},
 ];
 
 // Template
@@ -378,7 +385,7 @@ const questions = [
 // },
 
 //  
-// Which group of plastics have crosslinks - thermoplastics or thermosetting plastics? Thermosetting plastics
+//  
 // Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics? thermoplastics
 // Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics? thermoplastics
 // Which group of plastics can be recycled - thermoplastics or thermosetting plastics? thermoplastics
