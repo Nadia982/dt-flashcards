@@ -355,26 +355,97 @@ const questions = [
   {
     id: 45,
     q: "What is an adhesive?",
-    definition: "An adhesive is a sticky substance, like glue, used to join materials together by forming a strong surface bond.",
+    definition:
+      "An adhesive is a sticky substance, like glue, used to join materials together by forming a strong surface bond.",
     options: ["yes", "no"],
     a: 0,
   },
   {
     id: 46,
     q: "What is the difference between adhesive and solvent bonding?",
-    definition: "Adhesive bonding uses glue to join materials, while solvent bonding dissolves surfaces to create a strong chemical bond.",
+    definition:
+      "Adhesive bonding uses glue to join materials, while solvent bonding dissolves surfaces to create a strong chemical bond.",
     options: ["yes", "no"],
     a: 0,
   },
-{
-  id: 47,
-  q: "Which group of plastics have crosslinks - thermoplastics or thermosetting plastics?",
-  definition: "Thermosetting plastics",
-  options: ["yes", "no"],
-  a: 0,
-},
+  {
+    id: 47,
+    q: "Which group of plastics have crosslinks - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 48,
+    q: "Which group of plastics have crosslinks - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 49,
+    q: "Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 50,
+    q: "Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 51,
+    q: "Which group of plastics can be recycled - thermoplastics or thermosetting plastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 52,
+    q: "Which has a lower melting point - thermoplastics or thermosetting plastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 53,
+    q: "Which has a higher melting point - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 54,
+    q: "What are most plastic items made of - thermoplastics or thermosetting plastics?",
+    definition: "Thermoplastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 55,
+    q: "Which type of plastics can only be formed once - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 56,
+    q: "Which can withstand higher temperatures - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
+  {
+    id: 57,
+    q: "Which are used in electrical and cooking items - thermoplastics or thermosetting plastics?",
+    definition: "Thermosetting plastics",
+    options: ["yes", "no"],
+    a: 0,
+  },
 ];
-
 // Template
 // {
 //   id: 42,
@@ -384,17 +455,7 @@ const questions = [
 //   a: 0,
 // },
 
-//  
-//  
-// Which group of plastics have no crosslinks - thermoplastics or thermosetting plastics? thermoplastics
-// Which group of plastics can be melted and shaped many times - thermoplastics or thermosetting plastics? thermoplastics
-// Which group of plastics can be recycled - thermoplastics or thermosetting plastics? thermoplastics
-// Which has a lower melting point - thermoplastics or thermosetting plastics? thermoplastics
-// Which has a higher melting point - thermoplastics or thermosetting plastics? Thermosetting plastics
-// What are most plastic items made of - thermoplastics or thermosetting plastics? thermoplastics
-// Which type of plastics can only be formed once - thermoplastics or thermosetting plastics? Thermo setting plastics.
-// Which can withstand higher temperatures - thermoplastics or thermosetting plastics? Thermosetting plastics
-// Which are used in electrical and cooking items - thermoplastics or thermosetting plastics? Thermosetting plastics
+
 // // template
 // {
 //   id: 21,
