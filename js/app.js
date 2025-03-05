@@ -1,6 +1,6 @@
 console.clear();
 
-let category = "unknown";
+let category = "periodic-table";
 function $(type) {
   return document.querySelector(type);
 }
