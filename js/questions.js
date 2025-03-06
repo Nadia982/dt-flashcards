@@ -722,7 +722,56 @@ const questions = [
     a: 0,
     category: "periodic-table",
   },
+  {
+    id: 89,
+    q: "Which element does the symbol Ca stand for?",
+    definition: "Calcium",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
+  {
+    id: 90,
+    q: "What is the symbol for calcium?",
+    definition: "Ca",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
+  {
+    id: 89,
+    q: "Which element does the symbol H stand for?",
+    definition: "hydrogen",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
+  {
+    id: 92,
+    q: "What is the symbol for hydrogen?",
+    definition: "H",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
+  {
+    id: 93,
+    q: "Which element does the symbol Ca stand for?",
+    definition: "Calcium",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
+  {
+    id: 94,
+    q: "What is the symbol for calcium?",
+    definition: "Ca",
+    options: ["yes", "no"],
+    a: 0,
+    category: "periodic-table-names",
+  },
 ];
+
 // Template
 // {
 //   id: 42,
