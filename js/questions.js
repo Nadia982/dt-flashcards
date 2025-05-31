@@ -11,7 +11,7 @@ const questions = [
 `,
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 59,
@@ -34,7 +34,7 @@ const questions = [
 `,
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 61,
@@ -43,7 +43,7 @@ const questions = [
       "<img src='./images/plain-rift-quarter.png' width='200' style='margin-left: 25%' alt='Plain, rift and quarter'><p style='display:none>Plain, rift and quarter</p>",
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 62,
@@ -52,7 +52,7 @@ const questions = [
       "It expands. If parts of the timber expand more than others it can warp or even crack.",
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 63,
@@ -65,11 +65,11 @@ const questions = [
   },
   {
     id: 64,
-    q: "What are two types of seasoning?",
+    q: "What are the names of the two types of seasoning we studied?",
     definition: "Air drying and kiln drying.",
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 66,
@@ -78,7 +78,7 @@ const questions = [
       "Wood is the raw material from trees that contains moisture and has not been processed. Timber is wood that has been processed.",
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 67,
@@ -309,17 +309,17 @@ const questions = [
   {
     id: 26,
     q: "Name two renewable materials",
-    definition: "Renewable materials include timber and cotton.",
+    definition: "Timber and cotton.",
     options: ["yes", "no"],
     a: 0,
-    category: "unknown",
+    category: "dt",
   },
   {
     id: 66,
     q: "Name two non-renewable materials",
-    definition: "Non-renewable material include metals and plastics.",
+    definition: "Metals and plastics.",
     options: ["yes", "no"],
-    category: "unknown",
+    category: "dt",
     a: 0,
   },
   // {

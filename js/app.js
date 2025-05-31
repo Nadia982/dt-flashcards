@@ -1,6 +1,6 @@
 console.clear();
 
-let category = "periodic-table-names";
+let category = "dt";
 function $(type) {
   return document.querySelector(type);
 }
@@ -66,7 +66,7 @@ let yourAnswersList = [];
 
 function setAvailableQuestions() {
   console.log("Original questions array:", questions);
-  availableQuestions = questions.filter((q) => q.category === category);
+  availableQuestions = questions.filter((q) => q.category.includes(category));
   console.log("Filtered questions:", availableQuestions);
 
   if (availableQuestions.length === 0) {
@@ -439,7 +439,7 @@ function startQuiz() {
 
 console.log(questions);
 window.onload = function () {
-  availableQuestions = questions.filter((q) => q.category === category);
+  availableQuestions = questions.filter((q) => q.category.includes(category));
   homeBox.querySelector(".total-questions").innerHTML =
     availableQuestions.length;
 };
