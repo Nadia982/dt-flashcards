@@ -25,12 +25,29 @@ const questions = [
   {
     id: 60,
     q: "Name the six stages of how timber is produced.",
-    definition: `1. Tree felled. 
+    definition: `
+    
+    1. Tree felled. 
 2. Branches are removed from timber.  
 3. Bark removed from timber. 
 4. Timber is rough cut into planks 
 5. Rough cut timber is seasoned. 
 6. Dried timber is planed smooth.
+Mnemonic: "Funny Bears Bite Planks, Seasoned Perfectly"
+
+And here's how it maps:
+
+Funny → Felled (tree is cut down)
+
+Bears → Branches removed
+
+Bite → Bark removed
+
+Planks → Timber is rough cut into Planks
+
+Seasoned → Timber is Seasoned (dried)
+
+Perfectly → Timber is Planed smooth
 `,
     options: ["yes", "no"],
     a: 0,
@@ -769,6 +786,24 @@ const questions = [
     options: ["yes", "no"],
     a: 0,
     category: "periodic-table-names",
+  },
+  {
+    id: 95,
+    q: "What is a renewable material?",
+    definition:
+      "A material that can be replaced and is unlikely to ever run out. ",
+    options: ["yes", "no"],
+    a: 0,
+    category: "dt",
+  },
+  {
+    id: 96,
+    q: "What is the function of xylem heartwood?",
+    definition:
+      "This section is the supporting pillar of the tree. Although this wood is dead, it will not decay or lose strength while the outer layers are intact. ",
+    options: ["yes", "no"],
+    a: 0,
+    category: "dt",
   },
 ];
 
